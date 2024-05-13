@@ -4,8 +4,286 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="237fff96-1f37-4256-9727-fc20479cab4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="237fff96-1f37-4256-9727-fc20479cab4b" name="Changes" comment="项目初始结构创建">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/gulimall-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/constant/AuthServerConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/constant/CartConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/constant/ProductConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/constant/WareConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/exception/BizCodeEnume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/exception/NoStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/MemberPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/SkuHasStockVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/SkuReductionTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/SocialUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/SpuBoundTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/es/SkuEsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/mq/OrderTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/mq/SeckillOrderTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/mq/StockDetailTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/mq/StockLockedTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/valid/AddGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/valid/ListValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/valid/ListValueConstraintValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/valid/UpdateGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/valid/UpdateStatusGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/vo/MemberRespVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/xss/HTMLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/xss/SQLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/GulimailProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/db/mysql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/db/oracle.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/db/postgresql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/db/sqlserver.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/renren-fast.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/RenrenApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/annotation/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/aspect/RedisAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/aspect/SysLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/exception/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/exception/RRExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/utils/ConfigConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/utils/HttpContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/utils/IPUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/utils/MapUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/utils/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/utils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/utils/RedisKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/utils/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/utils/ShiroUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/utils/SpringContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/validator/Assert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/validator/ValidatorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/validator/group/AddGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/validator/group/AliyunGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/validator/group/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/validator/group/QcloudGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/validator/group/QiniuGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/validator/group/UpdateGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/xss/HTMLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/xss/SQLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/xss/XssFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/common/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/FilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/KaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/datasource/annotation/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/datasource/aspect/DataSourceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/datasource/config/DynamicContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/datasource/config/DynamicDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/datasource/config/DynamicDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/datasource/config/DynamicDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/datasource/properties/DataSourceProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/datasource/properties/DynamicDataSourceProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/annotation/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/annotation/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/controller/AppLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/controller/AppRegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/controller/AppTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/form/LoginForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/form/RegisterForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/interceptor/AuthorizationInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/resolver/LoginUserHandlerMethodArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/app/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/config/ScheduleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/controller/ScheduleJobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/controller/ScheduleJobLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/dao/ScheduleJobDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/dao/ScheduleJobLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/entity/ScheduleJobEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/entity/ScheduleJobLogEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/service/ScheduleJobLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/service/ScheduleJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/service/impl/ScheduleJobLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/service/impl/ScheduleJobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/task/ITask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/task/TestTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/utils/ScheduleJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/job/utils/ScheduleUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/oss/cloud/AliyunCloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/oss/cloud/CloudStorageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/oss/cloud/CloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/oss/cloud/OSSFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/oss/cloud/QcloudCloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/oss/cloud/QiniuCloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/oss/controller/SysOssController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/oss/dao/SysOssDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/oss/entity/SysOssEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/oss/service/SysOssService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/oss/service/impl/SysOssServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/controller/AbstractController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/controller/SysConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/controller/SysLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/controller/SysLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/controller/SysMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/controller/SysRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/dao/SysCaptchaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/dao/SysConfigDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/dao/SysLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/dao/SysMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/dao/SysRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/dao/SysRoleMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/dao/SysUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/dao/SysUserRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/dao/SysUserTokenDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/entity/SysCaptchaEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/entity/SysConfigEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/entity/SysLogEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/entity/SysMenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/entity/SysRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/entity/SysRoleMenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/entity/SysUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/entity/SysUserRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/entity/SysUserTokenEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/form/PasswordForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/form/SysLoginForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/oauth2/OAuth2Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/oauth2/OAuth2Realm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/oauth2/OAuth2Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/oauth2/TokenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/redis/SysConfigRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/ShiroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/SysCaptchaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/SysConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/SysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/SysRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/SysUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/SysUserTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/impl/ShiroServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/impl/SysCaptchaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/impl/SysConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/service/impl/SysUserTokenServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/mapper/app/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/mapper/job/ScheduleJobDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/mapper/job/ScheduleJobLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/mapper/oss/SysOssDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/mapper/sys/SysConfigDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/mapper/sys/SysLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/mapper/sys/SysMenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/mapper/sys/SysRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/mapper/sys/SysRoleMenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/mapper/sys/SysUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/mapper/sys/SysUserRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/mapper/sys/SysUserTokenDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/css/typography.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/fonts/DroidSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/fonts/DroidSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/images/collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/images/expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/images/explorer_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/images/logo_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/images/pet_store_api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/images/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/images/wordnik_api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/index.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lang/translator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/backbone-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/es5-shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/handlebars-4.0.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/highlight.9.1.0.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/highlight.9.1.0.pack_extended.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/jquery-1.8.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/jquery.ba-bbq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/jquery.slideto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/jquery.wiggle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/js-yaml.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/jsoneditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/lodash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/marked.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/object-assign-pollyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/sanitize-html.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/lib/swagger-oauth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/o2c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/oauth2-redirect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/swagger-ui-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/swagger-ui-bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/swagger-ui-standalone-preset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/swagger-ui-standalone-preset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/swagger-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/swagger-ui.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/swagger-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/swagger-ui.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/static/swagger/swagger-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/test/java/io/renren/DynamicDataSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/test/java/io/renren/JwtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/test/java/io/renren/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-fast/src/test/java/io/renren/service/DynamicDataSourceTestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/GulimallCouponApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/GulimallCouponApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/GulimallProductApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/test/java/com/atguigu/gulimall/product/GulimallProductApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/test/java/com/atguigu/gulimall/product/GulimallProductApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +293,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Arlen77&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2c6f4eb7-9fb6-4a4b-b474-42d6f1ffa965" />
+        <option name="url" value="https://github.com/Arlen77/gulimall.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="B:/software/apache-maven-3.9.6" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2gDfa2J5Gki8PWZZgtu1d10z1mC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,13 +327,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/81809/Desktop/gulimall",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/81809/Desktop/gulimall/gulimall-ware/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -42,13 +347,26 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "8cc299d46edb9cd09bb19e03e6f7f912",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\81809\Desktop\gulimall" />
+      <recent name="C:\Users\81809\Desktop\gulimall\gulimall-ware\src\main\resources" />
+      <recent name="C:\Users\81809\Desktop\gulimall\gulimall-order\src\main\resources" />
+      <recent name="C:\Users\81809\Desktop\gulimall\gulimall-member\src\main\resources" />
+      <recent name="C:\Users\81809\Desktop\gulimall\gulimall-coupon\src\main\resources" />
+      <recent name="C:\Users\81809\Desktop\gulimall\gulimall-product\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.gulimall.product" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -58,7 +376,36 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GulimallCouponApplication">
+  <component name="RunManager" selected="Spring Boot.GulimallOrderApplication">
+    <configuration name="GulimallProductApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gulimall-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gulimall.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.gulimall.product" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.gulimall.product.GulimallProductApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimailProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gulimall-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.product.GulimailProductApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gulimall.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GulimallCouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="gulimall-coupon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.coupon.GulimallCouponApplication" />
@@ -94,6 +441,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RenrenApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="renren-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="renren-fast" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GulimailProductApplication" />
+        <item itemvalue="JUnit.GulimallProductApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,8 +470,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715237129099</updated>
-      <workItem from="1715237130145" duration="3654000" />
+      <workItem from="1715237130145" duration="13268000" />
+      <workItem from="1715320602976" duration="19340000" />
     </task>
+    <task id="LOCAL-00001" summary="项目初始结构创建">
+      <option name="closed" value="true" />
+      <created>1715253058301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715253058301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,5 +497,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目初始结构创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目初始结构创建" />
   </component>
 </project>
