@@ -8,6 +8,11 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI5tHFbFjDmnEtpcXyqP5j
+      secret-key: eqEHbWrTEi001lhl6WQPq7mNYdPXVg
+      oss:
+        endpoint: oss-ap-northeast-1.aliyuncs.com
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
   redis:
@@ -20,9 +25,14 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: auto
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+
 
 server:
   port: 10001
-
+logging:
+  level:
+    com.atguigu.gulimall: debug
 
 

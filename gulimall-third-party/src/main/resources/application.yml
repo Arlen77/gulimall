@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI5tHFbFjDmnEtpcXyqP5j
+      secret-key: eqEHbWrTEi001lhl6WQPq7mNYdPXVg
+      oss:
+        endpoint: oss-ap-northeast-1.aliyuncs.com
+        bucket: gulimall-arlen
+#      sms:
+#        accessKeyId: LTAI4G73Dewcd8U5pC1dppWk
+#        secret:
+#        templateCode: SMS_189520818
+#        signName: 谷粒商城
+
+  application:
+    name: gulimall-third-party
+
+server:
+  port: 30000
