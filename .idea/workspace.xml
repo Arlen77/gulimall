@@ -4,35 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="237fff96-1f37-4256-9727-fc20479cab4b" name="Changes" comment="逆向工程生成CRUD基础代码实现">
-      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/atguigu/gulimall/gateway/config/MyCorsConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/exception/GulimallExcdeptionControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/AttrGroupRelationVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/AttrRespVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/AttrVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/java/com/atguigu/gulimall/thirdparty/controller/OssController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/java/com/atguigu/gulimall/thirdparty/controller/SmsApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-common/gulimall-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/gulimall-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/resources/ValidationMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/src/main/resources/ValidationMessages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/pom.xml" afterDir="false" />
+    <list default="true" id="237fff96-1f37-4256-9727-fc20479cab4b" name="Changes" comment="商品服务业务实现">
       <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/RenrenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/RenrenApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/controller/SysLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/controller/SysLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +69,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/81809/Desktop/program_school&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/81809/Desktop/gulimall/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -122,11 +95,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\81809\Desktop\gulimall\gulimall-common\src\main\java\com\atguigu\common" />
+      <recent name="C:\Users\81809\Desktop\gulimall\gulimall-product\src\main\java\com\atguigu\gulimall\product\vo" />
       <recent name="C:\Users\81809\Desktop\gulimall\gulimall-product\src\main\java\com\atguigu\gulimall\product" />
+      <recent name="C:\Users\81809\Desktop\gulimall\gulimall-common\src\main\java\com\atguigu\common" />
       <recent name="C:\Users\81809\Desktop\gulimall\gulimall-third-party\src\main\java\com\atguigu\gulimall\thirdparty" />
       <recent name="C:\Users\81809\Desktop\gulimall\gulimall-third-party\src\main\resources" />
-      <recent name="C:\Users\81809\Desktop\gulimall\gulimall-product\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.gulimall.product" />
@@ -248,6 +221,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.GulimallProductApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.GulimallThirdPartyApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.GulimallProductApplication" />
+      <item itemvalue="Spring Boot.RenrenApplication" />
+      <item itemvalue="Spring Boot.GulimallOrderApplication" />
+      <item itemvalue="Spring Boot.GulimallWareApplication" />
+      <item itemvalue="Spring Boot.RenrenApplication (1)" />
+      <item itemvalue="Spring Boot.GulimallCouponApplication" />
+      <item itemvalue="Spring Boot.GulimallGatewayApplication" />
+      <item itemvalue="Spring Boot.GulimallMemberApplication" />
+      <item itemvalue="Spring Boot.GulimallThirdPartyApplication" />
+      <item itemvalue="Spring Boot.GulimailProductApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.GulimailProductApplication" />
@@ -279,6 +266,7 @@
       <workItem from="1717116069595" duration="10374000" />
       <workItem from="1717156747534" duration="1489000" />
       <workItem from="1717169189503" duration="12072000" />
+      <workItem from="1719053024326" duration="1041000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始结构创建">
       <option name="closed" value="true" />
@@ -296,7 +284,47 @@
       <option name="project" value="LOCAL" />
       <updated>1715580559306</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="商品服务业务实现">
+      <option name="closed" value="true" />
+      <created>1719052226931</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719052226931</updated>
+    </task>
+    <task id="LOCAL-00004" summary="商品服务业务实现">
+      <option name="closed" value="true" />
+      <created>1719053287245</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719053287245</updated>
+    </task>
+    <task id="LOCAL-00005" summary="商品服务业务实现">
+      <option name="closed" value="true" />
+      <created>1719053666923</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719053666923</updated>
+    </task>
+    <task id="LOCAL-00006" summary="商品服务业务实现">
+      <option name="closed" value="true" />
+      <created>1719053715298</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719053715298</updated>
+    </task>
+    <task id="LOCAL-00007" summary="商品服务业务实现">
+      <option name="closed" value="true" />
+      <created>1719054039318</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719054039318</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +344,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目初始结构创建" />
     <MESSAGE value="逆向工程生成CRUD基础代码实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="逆向工程生成CRUD基础代码实现" />
+    <MESSAGE value="商品服务业务实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品服务业务实现" />
   </component>
 </project>
